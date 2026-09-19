@@ -6,6 +6,21 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#prerequisites)
 
 **PhotoCurate** is a high-performance desktop photo culling and curation application built with Java Swing. Designed for photographers who need to quickly review large photo sessions (thousands of high-resolution images), inspect sharpness at 100% 1:1 pixel fidelity, compare similar bursts side-by-side, and export selections non-destructively to an output directory.
+# Intention
+
+The main reason for building this application is to make it easier to select photos for an album. When there are a large number of photos, manually reviewing and selecting the best ones can be time-consuming and difficult, especially when multiple photos are similar.
+
+The application allows the user to:
+
+1. **Select a source folder** containing all the photos.
+2. **Identify similar photos** and group them together in a separate comparison area.
+3. **Compare similar photos** and select the preferred photo from each group.
+4. **Review all selected photos** before completing the selection.
+5. **Copy the final selected photos** to a new destination folder once the review is completed.
+
+## Goal
+
+The goal of the application is to simplify the photo-selection process, reduce manual effort, and help users quickly choose the best photos for their album.
 
 ---
 
